@@ -8,5 +8,7 @@ public class JenknPrjGit {
 		System.setProperty("webdriver.chrome.driver","E:\\Work\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
+		//Changes Has done to print the title of the page
+		System.out.println(driver.getTitle());
 	}
 }
